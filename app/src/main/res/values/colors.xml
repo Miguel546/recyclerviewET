@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimary">#4BAF51</color>
+    <color name="colorPrimaryPressent">#AED6B0</color>
+    <color name="colorPrimaryDark">#409545</color>
+    <color name="colorAccent">#FF4E00</color>   <!--FB6D39 -->
+    <color name="colorAccentPressent">#FDC29F</color>
+    <color name="colorGray">#E8E8E8</color>
+    <color name="colorGrayLight">#F0F0F0</color>
+    <color name="colorGrayDark">#C6C6C6</color>
+    <color name="colorDisponible">#4BAF51</color>
+    <color name="colorDisponiblePresent">#A6D8A9</color>
+    <color name="colorOcupado">#F44336</color>
+    <color name="colorOcupadoPressent">#F99E8C</color>
+    <color name="colorInactivo">#F0F0F0</color>
+    <color name="colorTextDefault">#7E7E7E</color>
+    <color name="colorVerdeFosfo">#00FE06</color>
+    <color name="colorFooter">#80000000</color>
+    <color name="colorxEliminar">#FEE501</color>
+    <color name="colorxEliminarPressent">#66FEE501</color>
+</resources>
