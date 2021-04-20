@@ -1,6 +1,8 @@
 package com.luismiguel.recyclerviewet;
 
-public class PalletTempModel {
+import androidx.annotation.NonNull;
+
+public class PalletTempModel implements Cloneable {
 
     public String numePallet;
 
@@ -34,5 +36,11 @@ public class PalletTempModel {
 
     public int getNumePosEstiba() {
         return numePosEstiba;
+    }
+
+    @NonNull
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        return super.clone();
     }
 }
