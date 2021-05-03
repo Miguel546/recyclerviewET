@@ -20,18 +20,29 @@
         android:textSize="18sp"
         tools:text="28000001" />
 
+    <RelativeLayout
+        android:id="@+id/llTemperatura"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_toEndOf="@+id/tvPallet"
+        android:layout_toRightOf="@+id/tvPallet"
+        android:layout_toLeftOf="@+id/llCamara"
+        android:layout_marginRight="100dp"
+        android:gravity="center">
     <EditText
         android:id="@+id/tvTemperatura"
         android:layout_width="120dp"
         android:layout_height="match_parent"
-        android:layout_toEndOf="@+id/tvPallet"
-        android:layout_toRightOf="@+id/tvPallet"
-        android:inputType="numberDecimal"
-        android:digits="0123456789."
+        android:inputType="numberSigned|numberDecimal"
+        android:digits="0123456789.-"
         android:gravity="center"
+        android:maxLength="6"
         android:textColor="@android:color/black"
         android:textSize="18sp"
         tools:text="-2.3 C°" />
+    </RelativeLayout>
 
     <RelativeLayout
         android:id="@+id/llCamara"
